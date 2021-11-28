@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        Punkt punkt = new Punkt(2,4,5);
+        Punkt punkt2 = new Punkt(2,4,5);
+
+        System.out.println(punkt);
+        System.out.println(punkt2);
+
 
         /* ćw 3 klasy */
 
