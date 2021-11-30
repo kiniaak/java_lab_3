@@ -13,7 +13,13 @@ public class Main {
         Student Ola=new Student(x,Wydzial.EDUKACJA);
         Student Iza=new Student(x,Wydzial.EDUKACJA);
 
-
+        List<Student> studentList = new ArrayList<>();
+        studentList.add(Antek);
+        studentList.add(Agnieszka);
+        studentList.add(Ola);
+        studentList.add(Iza);
+        studentList.add(Olek);
+        System.out.println(studentList);
             }
         }
         /* ćw 4 klasy */
