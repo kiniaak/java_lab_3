@@ -20,6 +20,9 @@ public class Main {
         studentList.add(Iza);
         studentList.add(Olek);
         System.out.println(studentList);
+        for (Student item:studentList) {
+               System.out.println(item.toString());
+        }
             }
         }
         /* ćw 4 klasy */
@@ -49,5 +52,5 @@ public class Main {
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
 
-    }
-}
+
+
