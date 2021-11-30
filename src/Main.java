@@ -1,6 +1,21 @@
+import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
+        Osoba x=new Osoba("x","y",57072);
+        x.PrzedstawSie();
+        System.out.println(x.PrzedstawSie());
+        Student Olek=new Student(x,Wydzial.INFORMATYKA);
+        System.out.println(Olek.toString());
+        Student Antek=new Student(x,Wydzial.EDUKACJA);
+        Student Agnieszka=new Student(x,Wydzial.EDUKACJA);
+        Student Ola=new Student(x,Wydzial.EDUKACJA);
+        Student Iza=new Student(x,Wydzial.EDUKACJA);
+
+
+            }
+        }
         /* ćw 4 klasy */
 
         /* zad.1
