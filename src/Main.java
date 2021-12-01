@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
+        Samochod samochod=new Samochod();
+        Osobowy osobowy=new Osobowy();
+        Wyscigowy wyscigowy=new Wyscigowy();
         /* ćw 5 Dziedziczenie */
 
         /* zad.1 Proszę wybrać dowolny temat budowania struktur klas np. samochody, dom, biblioteka, nauka, zabawki, kosmetyki, biuro podróży ... .
