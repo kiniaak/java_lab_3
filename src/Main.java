@@ -8,7 +8,9 @@ public class Main {
         Osobowy osobowy=new Osobowy("Toyota","Czerwony",250000);
         Wyscigowy wyscigowy=new Wyscigowy("BMW","żółty",500000);
         List<Samochod> samochodList=new ArrayList<>();
-
+         samochodList.add(osobowy);
+         samochodList.add(wyscigowy);
+         System.out.println(samochodList);
 
         /* ćw 5 Dziedziczenie */
 

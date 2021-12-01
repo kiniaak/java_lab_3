@@ -1,7 +1,7 @@
 public class Samochod {
-protected String marka;
-private String kolor;
-Integer przebieg;
+ protected String marka;
+ String kolor;
+ private Integer przebieg;
 
     public Samochod(String marka,String kolor,Integer przebieg) {
         this.marka = marka;
