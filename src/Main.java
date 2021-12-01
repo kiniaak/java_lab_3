@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        Samochod samochod=new Samochod();
+        Samochod samochod=new Samochod("Audi","granatowy",100000);
         Osobowy osobowy=new Osobowy();
         Wyscigowy wyscigowy=new Wyscigowy();
         /* ćw 5 Dziedziczenie */
