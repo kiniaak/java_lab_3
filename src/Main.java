@@ -1,10 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
         Samochod samochod=new Samochod("Audi","granatowy",100000);
         Osobowy osobowy=new Osobowy("Toyota","Czerwony",250000);
         Wyscigowy wyscigowy=new Wyscigowy("BMW","żółty",500000);
-        Lista<Samochod>samochodList=new Samochod();
+        List<Samochod> samochodList=new ArrayList<>();
+
+
         /* ćw 5 Dziedziczenie */
 
         /* zad.1 Proszę wybrać dowolny temat budowania struktur klas np. samochody, dom, biblioteka, nauka, zabawki, kosmetyki, biuro podróży ... .
